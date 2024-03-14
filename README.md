@@ -17,7 +17,9 @@ npm install mongoose ---------- 01:11
 creando models ---------- 01:17
 definiendo el modelo antes de exportarlo 01:22
 
-dejé en 01:25 ----///////
+clientes router: ruta de todos los clientes --------- => 01:30
+
+clientes model -------- 01:35
 
 
 () => {}
