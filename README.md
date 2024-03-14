@@ -23,6 +23,10 @@ clientes model -------- 01:35
 
 Subimos un nuevo cliente por postman ------- 01:46
 
+actualizamos por id ------------ 02:32
+
+eliminamos por id ---------02:41
+
 
 
 () => {}

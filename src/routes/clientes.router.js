@@ -40,10 +40,20 @@ router.put("/:id", async (req, res) => {
     }
 })
 
+//3) Eliminamos un cliente por su id
 
 
-
-
+router.delete("/:id", async (req, res) => {
+    try {
+        const cliente = await ClientesModel.findByIdAndDelete(req.params.id);
+        if (!cliente) {
+            return res.status(404).send({message: "Cliente no encontrado"})
+        }
+        res.status(200).send({message: "Cliente eliminado!"});
+    } catch (error) {
+        res.status(500).json({message: "Error del servidor"})
+    }
+})
 
 
 
