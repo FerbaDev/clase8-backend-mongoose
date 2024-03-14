@@ -21,6 +21,9 @@ clientes router: ruta de todos los clientes --------- => 01:30
 
 clientes model -------- 01:35
 
+Subimos un nuevo cliente por postman ------- 01:46
+
+
 
 () => {}
 
